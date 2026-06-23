@@ -36,3 +36,6 @@ jobs:
 
             - name: Apply terraform changes
               run: terraform apply --auto-approve
+
+            - name: Destroy Infra
+              run: terraform destroy --auto-approve
